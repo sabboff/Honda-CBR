@@ -4,3 +4,20 @@
 .honda-btn-color{
     background-color: #E76F51;
 }
+.honda-text{
+    color:#E76F51 ;
+}
+#grayscaling img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.honda-text-two{
+    color: #23A6F0;
+}
+
+.card:hover{
+    background-color: rgba(95, 158, 160, 0.048);
+    cursor: pointer;
+    transform: translateY(-15px);
+    transition: transform 0.5s ease-out;
+}
